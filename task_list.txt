@@ -1,0 +1,5 @@
+Please make a CRUD(create, read, update, delete) for users.
+1. Create model, migration, factory and seeder for user entity (id, name, phone, email, photo, created_at, updated_at, deleted_at).
+2. Implement Restful API controller for model User (We should have validation at least for update method) .
+3. Add an ability to send sms for each newly created user (We are going to have several sms providers and select active in config).
+4. For each removed user we want to send sms and email notification. (Keep in mind for this we use external api services and it does not have fixed response time).
